@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form page</title>
+</head>
+<body>
+    <form action="/formParam" method="post">
+        Name: <input name="userName"><br>
+        Age: <input name="userAge" type="number"><br>
+        Gender: <input type="radio" name="gender" value="male" checked>Male
+                <input type="radio" name="gender" value="female">Female<br>
+        Country: <select name="country">
+                    <option>Belarus</option>
+                    <option>Russia</option>
+                    <option>USA</option>
+                </select>
+        Courses:
+            <input type="checkbox" name="courses" value="JavaScript"> Java Script
+            <input type="checkbox" name="courses" value="Java"> Java
+            <input type="checkbox" name="courses" value="HTML"> HTML<br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
